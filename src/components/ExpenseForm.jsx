@@ -7,7 +7,11 @@ const ExpenseForm = ({ onAddExpense }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onAddExpense({ description, amount, category });
+    onAddExpense({
+         description, 
+        amount,
+         category
+         });
     setDescription('');
     setAmount('');
     setCategory('');
