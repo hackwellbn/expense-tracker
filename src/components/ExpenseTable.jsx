@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './ExpenseTable.css'
 const ExpenseTable = ({ expenses }) => {
   return (
     <table>
